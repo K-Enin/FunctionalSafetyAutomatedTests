@@ -8,6 +8,7 @@ The file *HazardousCondition.py* replicates the failure to be detected with the 
 ## Test methods
 
 In each test file the possibility of choosing the switch rate is given through an if condition. 
+
 In the file *RandomInput.py*, a random choice method is implemented. The values of the valves are chosen uniformally at random at each switch time step.
 
 In the file *DFS.py* a Depth-First Search approach was implemented. The last for-loop in these files two executes the method 10 times, as due to the random character different runs lead to different time results.  
