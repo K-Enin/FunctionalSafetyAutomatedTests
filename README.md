@@ -3,8 +3,9 @@ This repository contains the implementation of the methods presented in the pape
 ## Digital Twin
 A small fictitious process plant is modelled in Dymola and exported as a FMU. Thsi process plant is equipped with an unsufficient set of safety functions. 
 The aim of the presented test algorithms is find this safety failure through these three different test methods: *Random Input.py*, *DFS.py* and *DDQNwithPER* folder.
+The file *HazardousCondition.py* replicates the failure to be detected with the test methods, which is the only failure to be found within 40 sec.
+
 ## Test methods
-*HazardousCondition.py* replicates the failure to be detected with the test methods, which is the only failure to be found within 40 sec.
 
 In each test file the possibility of choosing the switch rate is given through an if condition. 
 In the file *RandomInput.py*, a random choice method is implemented. The values of the valves are chosen uniformally at random at each switch time step.
