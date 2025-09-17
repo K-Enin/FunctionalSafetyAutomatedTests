@@ -12,6 +12,5 @@ In the file *DFS.py* a Depth-First Search approach was implemented. The last for
 The folder DDQNwithPER contains the code used for Double-Deep Q-Network (DDQN) with Prioritized Experience Replay (PER). The file to be executed inside the folder is train_agent.py. The number of seeds in this file defines the number of test runs.
 
 The file *ComparisonOfAlgorithms.py* plots the previously obtained runtimes in a boxplot, as depicted in the paper. 
-The following library versions were used: Python 3.8.20, fmpy 0.3.19 and PyTorch 2.3.0.
 
-The user is refered to the paper for more details.
+The following library versions were used: Python 3.8.20, fmpy 0.3.19 and PyTorch 2.3.0. For more details, please read the paper.
